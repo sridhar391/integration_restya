@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<info>
+	<id>integration_restya</id>
+	<name>Restyaboard integration</name>
+	<summary>Integration of Restyaboard software development management service</summary>
+	<description><![CDATA[The Restyaboard integration adds a dashboard widget to your dashboard that shows all of your essential alerts,
+a search provider that searches for cards in a consistent way
+and alerts about recent activity related to your assigned cards.
+Restyaboard is an open-source alternative to Trello. Restyaboard comes in both self-hosted downloadable and cloud options. It has features like offline sync, diff /revisions, nested comments, multiple view layouts. It is more like an electronic sticky note for organizing tasks and todos.]]></description>
+	<version>1.0.1</version>
+	<licence>agpl</licence>
+	<author>Restya</author>
+	<namespace>Restya</namespace>
+	<documentation>
+		<developer>https://github.com/nextcloud/integration_restya</developer>
+	</documentation>
+	<category>integration</category>
+	<category>dashboard</category>
+	<website>https://github.com/nextcloud/integration_restya</website>
+	<bugs>https://github.com/nextcloud/integration_restya/issues</bugs>
+	<screenshot>https://github.com/nextcloud/integration_restya/raw/master/img/screenshot1.jpg</screenshot>
+	<dependencies>
+		<database min-version="9.4">pgsql</database>
+		<database>sqlite</database>
+		<database min-version="5.5">mysql</database>
+		<nextcloud min-version="20" max-version="22"/>
+	</dependencies>
+	<background-jobs>
+		<job>OCA\Restya\BackgroundJob\CheckOpenTickets</job>
+	</background-jobs>
+	<settings>
+		<admin>OCA\Restya\Settings\Admin</admin>
+		<admin-section>OCA\Restya\Settings\AdminSection</admin-section>
+		<personal>OCA\Restya\Settings\Personal</personal>
+		<personal-section>OCA\Restya\Settings\PersonalSection</personal-section>
+	</settings>
+</info>
