@@ -1,0 +1,7 @@
+{ "translations": {
+    "Client ID" : "Müştəri İD-s",
+    "Client secret" : "Müxtəri sirri",
+    "Access Token"  : Access Token,
+    "Password" : "Şifrə"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}

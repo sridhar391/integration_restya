@@ -1,0 +1,7 @@
+{ "translations": {
+    "Client ID" : "ID de veceru",
+    "Client secret" : "Veceru secretu",
+    "Access Token"  : "Usuariu",
+    "Password" : "Password"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}

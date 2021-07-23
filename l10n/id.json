@@ -1,0 +1,7 @@
+{ "translations": {
+    "Client ID" : "ID Klien",
+    "Client secret" : "Rahasia klien",
+    "Access Token"  : "Pengguna",
+    "Password" : "Kata kunci"
+},"pluralForm" :"nplurals=1; plural=0;"
+}
