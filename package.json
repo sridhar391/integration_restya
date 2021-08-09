@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nextcloud/integration_restya"
+    "url": "https://github.com/sridhar391/integration_restya"
   },
   "keywords": [
     "restya"
@@ -25,9 +25,9 @@
   "author": "Restya",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/nextcloud/integration_restya/issues"
+    "url": "https://github.com/sridhar391/integration_restya/issues"
   },
-  "homepage": "https://github.com/nextcloud/integration_restya",
+  "homepage": "https://github.com/sridhar391/integration_restya",
   "browserslist": [
     "extends @nextcloud/browserslist-config"
   ],
