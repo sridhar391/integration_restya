@@ -12,13 +12,13 @@ Restyaboard is an open-source alternative to Trello. Restyaboard comes in both s
 	<author>Restya</author>
 	<namespace>Restya</namespace>
 	<documentation>
-		<developer>https://github.com/nextcloud/integration_restya</developer>
+		<developer>https://github.com/sridhar391/integration_restya</developer>
 	</documentation>
 	<category>integration</category>
 	<category>dashboard</category>
-	<website>https://github.com/nextcloud/integration_restya</website>
-	<bugs>https://github.com/nextcloud/integration_restya/issues</bugs>
-	<screenshot>https://github.com/nextcloud/integration_restya/raw/master/img/screenshot1.jpg</screenshot>
+	<website>https://github.com/sridhar391/integration_restya</website>
+	<bugs>https://github.com/sridhar391/integration_restya/issues</bugs>
+	<screenshot>https://github.com/sridhar391/integration_restya/raw/main/img/screenshot1.png</screenshot>
 	<dependencies>
 		<database min-version="9.4">pgsql</database>
 		<database>sqlite</database>
